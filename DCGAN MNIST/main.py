@@ -134,7 +134,3 @@ for epoch in range(50):
 
 tc.save(G.state_dict(), 'G.pth')
 tc.save(D.state_dict(), 'D.pth')
-from google.colab import files
-files.download('G.pth') 
-files.download('D.pth')
-
