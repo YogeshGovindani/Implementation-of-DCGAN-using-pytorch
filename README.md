@@ -1,1 +1,1 @@
-# Implementation-of-DCGAN-using-pytorch
+# Implementation of DCGAN using pytorch
