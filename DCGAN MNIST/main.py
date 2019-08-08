@@ -19,7 +19,6 @@ import pandas as pd
 import numpy as np
 
 device = tc.device("cuda:0" if (tc.cuda.is_available()) else "cpu")
-device
 
 batch_size = 100
 transform = transforms.Compose([
